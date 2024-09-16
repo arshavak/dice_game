@@ -1,0 +1,76 @@
+*{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border: 4px solid;
+    margin: 15px;
+background-color: rgb(0, 86, 86);
+border-radius: 20px;
+}
+.diceplase{
+    
+    display: table-cell;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px 10px;
+}
+
+#btn,#resetbtn{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease all;
+    outline: none;
+    border: none;
+    background-color: #01a111;
+    width: 160px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #d3d3d3;
+    margin-top: 20px;
+}
+#btn:active,#resetbtn:active{
+    transform: translateY(8px);
+    box-shadow: none;
+    transform: scale(.9);
+}
+.dicegame{
+    padding: 20px 40px;
+    background-color: rgb(0 153 187);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+#woneText{
+   color: rgb(255, 255, 2);
+    margin: 6px;
+}
+.pc{
+    padding: 15px;
+    
+    font-size: 20px;
+}
+
+#p2c,#p1c{
+
+font-size: 30px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: beige;
+}

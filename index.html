@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>अक्षक्रीडा</h1>
+    <p>अक्षैर्मा दीव्य कृषिमित्कृषस्व!</p>
+    
+    
+    <div class="dicegame">
+        <label>Pari Counting:
+            <input type="number" readonly="" min="1" max="10" value="0" id="cc"/>
+            </label>
+            <label>Pari Set:
+            <input type="number" id="pariset" min="1" max="10" value="5"/>
+            </label>
+    <h1 id="woneText">Who is winner?</h1>
+   <hr>
+    <span  class="pc">P1 score : <span id="p1c">0</span></span>
+    <span  class="pc">P2 score : <span id="p2c">0</span></span>
+    <div class="container">
+        
+    <div class="diceplase">
+        <b>P1</b><br>
+        <img src="images/dice1.png" id="die1"/>
+    </div>
+    <div class="diceplase">
+        <b>P2</b><br>
+        <img src="images/dice1.png" id="die2"/>
+    </div>
+    
+</div>
+<button id="btn">play Now</button>
+<button id="resetbtn">Reset</button>
+</div>
+<script src="dice.js"></script>
+</body>
+</html>
